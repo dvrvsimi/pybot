@@ -1,2 +1,2 @@
-# pybot
+# twitter-assistant-bot
 more updates soon...
