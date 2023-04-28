@@ -114,10 +114,6 @@ else:
                 print("Error: invalid mention format")
             except tweepy.TweepError as e:
                 print(f"Error: {e}")
-try:
-    user = api.verify_credentials()
-    print(f"Authenticated as {user.screen_name}")
-except tweepy.TweepError as e:
-    print(f"Error: {e}")
+
 
 
