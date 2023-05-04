@@ -1,10 +1,3 @@
-# import tweepy
-# import openai
-# import json
-# import time
-# # import pandas as pd
-# import re
-
 
 import tweepy
 import re
@@ -25,9 +18,9 @@ except tweepy.TweepError as e:
     print(f"Error: {e}")
 else:
     for mention in mentions:
-        if '@bookmark_io' in mention.text:
+        if '@dvrvsimi' in mention.text:
             try:
-                keyword = re.findall(r'(?<=@bookmark_io ).+', mention.text)[0]
+                keyword = re.findall(r'(?<=@dvrvsimi ).+', mention.text)[0]
                 bookmarks = api.bookmarks()
                 tweets = []
 
